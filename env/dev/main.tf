@@ -7,3 +7,9 @@ rg=var.rg
 vnet = var.vnet
 depends_on = [ module.rg ]
     }
+    module "subnet" {
+        source = "../../modules/subnet"
+        subnet = var.subnet
+        depends_on = [ module.vnet ]
+      
+    }

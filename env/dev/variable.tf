@@ -2,6 +2,10 @@ variable "rg" {
     type = map(any)
   }
   variable "vnet" {
-    type = map(anp)
+    type = map(any)
     
   }
+  variable "subnet" {
+    type = map(any)
+  
+}
