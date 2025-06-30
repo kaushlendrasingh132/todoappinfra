@@ -2,6 +2,5 @@ variable "rg" {
     type = map(any)
   }
   variable "vnet" {
-    type = map(anp)
-    
+    type=map(any)
   }
